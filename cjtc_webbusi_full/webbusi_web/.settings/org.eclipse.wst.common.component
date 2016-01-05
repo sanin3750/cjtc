@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="webbusi_web">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="webbusi_component-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/webbusi_component/webbusi_component">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/webbusi_web/target/classes"/>
+        <property name="context-root" value="cjtc_webbusi"/>
+    </wb-module>
+</project-modules>
